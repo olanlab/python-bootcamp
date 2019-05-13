@@ -1,13 +1,13 @@
-list = ["mini cooper", "honda", "toyota"]
-print(list)
+list1 = ["mini cooper", "honda", "toyota"]
+print(list1)
 
-print(list[1])
+print(list1[1])
 
-list[1] = "nissan"
-print(list)
+list1[1] = "nissan"
+print(list1)
 
-print(len(list))
+print(len(list1))
 
-for x in list:
+for x in list1:
   print(x)
 

@@ -1,21 +1,19 @@
-list = ["mini cooper", "honda", "toyota"]
+list1 = ["mini cooper", "honda", "toyota"]
 # append
-list.append("ford")
-print(list)
+list1.append("ford")
+print(list1)
 # insert
-list.insert(1, "nissan")
-print(list)
+list1.insert(1, "nissan")
+print(list1)
 # remove
-list.remove("toyota")
-print(list)
+list1.remove("toyota")
+print(list1)
 # pop
-result = list.pop()
-print(list, result)
+result = list1.pop()
+print(list1, result)
 # del
-del list[0]
-print(list)
+del list1[0]
+print(list1)
 # clear
-list.clear()
-print(list)
-
-
+list1.clear()
+print(list1)
