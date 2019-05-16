@@ -13,4 +13,11 @@ print(set2.intersection(set1))
 print(set1.union(set2))
 print(set2.union(set1))
 
+# subset
+print(set1.issubset(set2))
 
+# superset
+print(set1.issuperset(set2))
+
+# disjoint
+print(set1.isdisjoint(set2))

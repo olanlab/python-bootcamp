@@ -1,7 +1,8 @@
-def showname(name = "Unname"):
-  print(name)
+def sum(x, y):
+    return x + y
 
-showname("Olan")
-showname("Jame")
-showname("Jib")
-showname()
+def subtract(x, y):
+    return x - y
+
+print(sum(2, 3))
+print(subtract(2, 3))
