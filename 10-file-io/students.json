@@ -1,0 +1,9 @@
+{
+    "students" : [
+        { "name" : "Olan", "sex" : "M", "gpa" : 3.2 },
+        { "name" : "Mane", "sex" : "M", "gpa" : 3.5 },
+        { "name" : "Manee", "sex" : "F", "gpa" : 2.5 }
+    ],
+    "max-gpa" : 3.5,
+    "min-gpa" : 2.5
+}
