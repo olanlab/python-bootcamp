@@ -1,6 +1,6 @@
 # Single Assignment
 age = 36
-height = 172.5  
+height = 172.5
 name = "Olan Samritjirapon"
 
 print(age)

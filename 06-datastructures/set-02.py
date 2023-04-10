@@ -1,8 +1,9 @@
-cars = {"mini cooper", "honda", "toyota"}
+cars1 = {"mini cooper", "honda", "toyota"}
+cars2 = {"toyota"}
 
-for x in cars :
+for x in cars1 :
     print(x)
 
-print(len(cars))
+print(len(cars1))
 
-print("honda" not in cars)
+print("honda" not in cars1)
