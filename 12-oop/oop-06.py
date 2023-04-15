@@ -1,15 +1,14 @@
 # Polymorphism
 
-from classes.Employee import SaleEmployee
+from classes.Employee import Employee
+from classes.Employee import CommissionEmployee
 from classes.Employee import MonthlyEmployee
+from classes.Employee import SaleEmployee
 
 seen = MonthlyEmployee("Seen", 15, "seen@olanlab.com", 30000)
-olan = SaleEmployee("Olan", 20, "olan@olanlab.com", 20000, 2002)
+olan = CommissionEmployee("Olan", 20, "olan@olanlab.com", 1000)
+new = SaleEmployee("New", 30, "new@gmail.com", 30000, 3000)
 
-print(olan.getIncome())
-print(seen.getIncome())
-
-for person in (olan, seen):
+for person in (olan, seen, new):
+    print(f"{person} | {type(person)}" )
     print(person.getIncome())
-    print(person.isAdult(person.getAge()))
-
