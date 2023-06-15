@@ -1,0 +1,32 @@
+Basic
+=============================================================================
+pyinstaller hello.py
+
+
+Including Data Files:
+=============================================================================
+pyinstaller --add-data "data.txt:." my_script.py
+pyinstaller --add-data "data_folder/*:data_folder" your_script.py
+pyinstaller --add-data "data_folder/*:data_folder" --onefile your_script.py
+
+
+pyinstaller --add-data "images/*:images" --onefile graphic.py
+pyinstaller --add-data "assets/images/*:assets/images" --onefile graphic.py
+pyinstaller --add-data  "shopper.db:." --onefile shop.py
+
+pyinstaller --add-data "images/*:images" --onefile graphic.py
+
+
+Specifying Output Directory
+=============================================================================
+pyinstaller --distpath my_output_dir my_script.py
+
+
+Single File Mode
+=============================================================================
+pyinstaller --onefile my_script.py
+
+
+Windowed Mode
+=============================================================================
+pyinstaller --windowed my_script.py
