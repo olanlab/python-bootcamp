@@ -1,13 +1,5 @@
 class Human:
-    
-    # class variables
-    count = 0
-    # class methods
-    @classmethod
-    def updateCount(cls, value) :
-        cls.count += value
-
-
+  
     # static methods
     @staticmethod
     def isAdult(age) :

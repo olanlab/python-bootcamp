@@ -4,9 +4,20 @@ from classes.Human import Human
 # derived class
 class Employee(Human, ABC):
 
+    # class variables
+    company = "OlanLab Co.,Ltd."
+    count = 0
+
+    # class methods
+    @classmethod
+    def updateCount(cls, value) :
+        cls.count += value
+
     def __init__(self, name, age, email) -> None:
         super().__init__(name, age)
         self.__email = email 
+        Employee.updateCount(1)
+        
     
     # Setter
     def setEmail(self, email): 
@@ -19,6 +30,9 @@ class Employee(Human, ABC):
     @abstractmethod
     def getIncome(self):
         pass
+
+    def __str__(self) -> str:
+        return f"{super().__str__()} My email is {self.getEmail()}."
 
 class MonthlyEmployee(Employee):
     def __init__(self, name, age, email, salary = 0) -> None:
@@ -35,6 +49,9 @@ class MonthlyEmployee(Employee):
 
     def getIncome(self):
         return f"Salary = {self.getSalary()}."
+    
+    def __str__(self) -> str:
+        return f"{super().__str__()} My salary is {self.getSalary()}"
 
 class CommissionEmployee(Employee):
     def __init__(self, name, age, email, commission = 0) -> None:
@@ -51,6 +68,9 @@ class CommissionEmployee(Employee):
 
     def getIncome(self):
           return f"Commission = {self.getCommission()}."
+    
+    def __str__(self) -> str:
+        return f"{super().__str__()} My commission is {self.getCommission()}."
 
 
 class SaleEmployee(MonthlyEmployee, CommissionEmployee):

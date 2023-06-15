@@ -11,4 +11,7 @@ new = SaleEmployee("New", 30, "new@gmail.com", 30000, 3000)
 
 for person in (olan, seen, new):
     print(f"{person} | {type(person)}" )
+    print(person.company)
     print(person.getIncome())
+
+print(Employee.count)
