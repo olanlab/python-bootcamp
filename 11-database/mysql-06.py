@@ -20,4 +20,5 @@ cursor.execute("""CREATE TABLE `customersx` (
 
 # cursor.execute("DROP TABLE customersx")
 
+cursor.close()
 connection.close()

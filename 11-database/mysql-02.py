@@ -13,4 +13,5 @@ result = cursor.fetchall()
 for x in result:
   print(x)
 
+cursor.close()
 connection.close()

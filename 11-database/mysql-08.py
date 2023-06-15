@@ -1,6 +1,9 @@
 import mysql.connector
 from mysql.connector import errorcode
 
+connection = None
+cursor = None
+
 try: 
     connection = mysql.connector.connect(user='root', password='', host='localhost', charset="utf8mb4",  database="shopper" )
     cursor = connection.cursor()
@@ -13,8 +16,10 @@ except mysql.connector.Error as err:
   else:
     print(err)
 finally:
-    cursor.close()
-    connection.close()
+    if cursor != None:
+      cursor.close()
+    if connection != None:
+      connection.close()
 
   
 

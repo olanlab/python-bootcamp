@@ -12,5 +12,7 @@ connection.commit()
 
 print(cursor.rowcount, "record(s) affected")
 
+
+cursor.close()
 connection.close()
 

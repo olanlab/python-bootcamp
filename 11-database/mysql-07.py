@@ -6,4 +6,5 @@ cursor = connection.cursor()
 cursor.execute("CREATE DATABASE mydatabase")
 # cursor.execute("DROP DATABASE mydatabase")
 
+cursor.close()
 connection.close()
