@@ -1,0 +1,14 @@
+# SQLite command-line 
+sqlite3
+
+# Show Databases
+.databases
+
+# Connect database
+.open database_name.db
+
+# Show tables
+.tables
+
+# Exit this program
+.quit
