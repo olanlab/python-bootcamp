@@ -4,10 +4,6 @@ from openpyxl import load_workbook
 wb = load_workbook(filename="students.xlsx")
 sheet = wb.active
 
-# WRITE SINGLE CELL
-sheet['A1'] = "nameeeee"
-sheet.cell(row=1, column=3).value = "gpaaaaa"
-
 # WRITE MULTIPLE CELL
 rows = (
     ('name', 'sex', 'gpa'),

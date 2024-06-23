@@ -1,0 +1,19 @@
+2024-05-29 11:45:00,287 - __main__ - INFO - This is an INFO message
+2024-05-29 11:45:00,287 - __main__ - DEBUG - This is a DEBUG message
+2024-05-29 11:45:00,287 - __main__ - WARNING - This is a WARNING message
+2024-05-29 11:45:00,287 - __main__ - ERROR - This is an ERROR message
+2024-05-29 11:45:00,288 - __main__ - CRITICAL - This is a CRITICAL message
+2024-05-29 11:45:00,288 - __main__ - INFO - Log message 0
+2024-05-29 11:45:01,293 - __main__ - INFO - Log message 1
+2024-05-29 11:45:02,298 - __main__ - INFO - Log message 2
+2024-05-29 11:45:03,300 - __main__ - INFO - Log message 3
+2024-05-29 11:45:04,305 - __main__ - INFO - Log message 4
+2024-05-29 11:45:05,311 - __main__ - INFO - Log message 5
+2024-05-29 12:05:02,089 - __main__ - INFO - This is an INFO message
+2024-05-29 12:05:02,089 - __main__ - DEBUG - This is a DEBUG message
+2024-05-29 12:05:02,089 - __main__ - WARNING - This is a WARNING message
+2024-05-29 12:05:02,089 - __main__ - ERROR - This is an ERROR message
+2024-05-29 12:05:02,089 - __main__ - CRITICAL - This is a CRITICAL message
+2024-05-29 12:05:02,089 - __main__ - INFO - Log message 0
+2024-05-29 12:05:03,094 - __main__ - INFO - Log message 1
+2024-05-29 12:05:04,100 - __main__ - INFO - Log message 2

@@ -5,7 +5,7 @@ conn = sqlite3.connect('shopper.db')
 
 # Cursor
 cursor = conn.cursor()
-# cursor.execute("INSERT INTO product (id, product_name, unit_price) VALUES (?, ?, ?)", (1, 'Pencil', 20))
+cursor.execute("INSERT INTO product (id, product_name, unit_price) VALUES (?, ?, ?)", (1, 'Pencil', 20))
 
 data = [
     (2, 'Shirt', 300),

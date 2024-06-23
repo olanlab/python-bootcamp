@@ -1,0 +1,37 @@
+2024-05-29 11:44:09,518 - __main__ - INFO - This is an INFO message
+2024-05-29 11:44:09,518 - __main__ - DEBUG - This is a DEBUG message
+2024-05-29 11:44:09,518 - __main__ - WARNING - This is a WARNING message
+2024-05-29 11:44:09,518 - __main__ - ERROR - This is an ERROR message
+2024-05-29 11:44:09,518 - __main__ - CRITICAL - This is a CRITICAL message
+2024-05-29 11:44:09,518 - __main__ - INFO - Log message 0
+2024-05-29 11:44:10,523 - __main__ - INFO - Log message 1
+2024-05-29 11:44:11,529 - __main__ - INFO - Log message 2
+2024-05-29 11:44:12,534 - __main__ - INFO - Log message 3
+2024-05-29 11:44:13,539 - __main__ - INFO - Log message 4
+2024-05-29 11:44:14,543 - __main__ - INFO - Log message 5
+2024-05-29 11:44:15,549 - __main__ - INFO - Log message 6
+2024-05-29 11:44:16,555 - __main__ - INFO - Log message 7
+2024-05-29 11:44:17,556 - __main__ - INFO - Log message 8
+2024-05-29 11:44:18,562 - __main__ - INFO - Log message 9
+2024-05-29 11:44:19,565 - __main__ - INFO - Log message 10
+2024-05-29 11:44:20,571 - __main__ - INFO - Log message 11
+2024-05-29 11:44:21,576 - __main__ - INFO - Log message 12
+2024-05-29 11:44:22,577 - __main__ - INFO - Log message 13
+2024-05-29 11:44:23,583 - __main__ - INFO - Log message 14
+2024-05-29 11:44:24,585 - __main__ - INFO - Log message 15
+2024-05-29 11:44:25,591 - __main__ - INFO - Log message 16
+2024-05-29 11:44:37,403 - __main__ - INFO - This is an INFO message
+2024-05-29 11:44:37,403 - __main__ - DEBUG - This is a DEBUG message
+2024-05-29 11:44:37,403 - __main__ - WARNING - This is a WARNING message
+2024-05-29 11:44:37,403 - __main__ - ERROR - This is an ERROR message
+2024-05-29 11:44:37,403 - __main__ - CRITICAL - This is a CRITICAL message
+2024-05-29 11:44:37,403 - __main__ - INFO - Log message 0
+2024-05-29 11:44:38,408 - __main__ - INFO - Log message 1
+2024-05-29 11:44:39,413 - __main__ - INFO - Log message 2
+2024-05-29 11:44:40,417 - __main__ - INFO - Log message 3
+2024-05-29 11:44:41,420 - __main__ - INFO - Log message 4
+2024-05-29 11:44:42,425 - __main__ - INFO - Log message 5
+2024-05-29 11:44:43,428 - __main__ - INFO - Log message 6
+2024-05-29 11:44:44,433 - __main__ - INFO - Log message 7
+2024-05-29 11:44:45,438 - __main__ - INFO - Log message 8
+2024-05-29 11:44:46,444 - __main__ - INFO - Log message 9

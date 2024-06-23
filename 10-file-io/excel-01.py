@@ -1,7 +1,10 @@
+import os
 from openpyxl import load_workbook
 
+dirname, filename = os.path.split(os.path.abspath(__file__))
+
 # READ
-wb = load_workbook(filename = "students.xlsx")
+wb = load_workbook(filename = f"{dirname}/students.xlsx")
 sheet = wb.active
 
 # READ SINGLE CELL
