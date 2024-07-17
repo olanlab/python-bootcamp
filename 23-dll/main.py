@@ -1,4 +1,4 @@
 # test.py
-import dll
+from lib import dll
 
 print(dll.say_hello("World"))
