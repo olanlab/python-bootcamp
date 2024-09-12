@@ -5,7 +5,7 @@ dirname, filename = os.path.split(os.path.abspath(__file__))
 
 
 # Load the DLL
-mylib = ctypes.CDLL(f"{dirname}/mylib.dll")
+mylib = ctypes.CDLL(f"{dirname}/calcdll.dll")
 
 # Define the argument and return types of the function
 mylib.add.argtypes = (ctypes.c_int, ctypes.c_int)
